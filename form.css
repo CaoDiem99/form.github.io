@@ -1,0 +1,187 @@
+html{
+    width: 1440px;
+    height: 1000px;
+    margin: 0;
+}
+.main{
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    margin: 0px;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
+}
+.background_filter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.user-name{
+    position: absolute;
+    display: block;
+    outline: none;
+    border-radius: 8px;
+    font-size: 40px;
+    top: 77px;
+    left: 53px;
+    width: 474px;
+    height: 86px;
+}
+.password{
+    position: absolute;
+    display: block;
+    outline: none;
+    border-radius: 8px;
+    font-size: 40px;
+    top: 243px;
+    left: 53px;
+    width: 474px;
+    height: 86px;
+}
+.submit{
+    position: absolute;
+    display: block;
+    border-radius: 8px;
+    background-color: #944AFF;
+    color: white;
+    font-size: 40px;
+    top: 393px;
+    left: 53px;
+    width: 474px;
+    height: 86px;
+    font-weight: bold;
+}
+
+
+.sign_up{
+    position: absolute;
+    display: block;
+    color: white;
+    font-size: 24px;
+    top: 503px;
+    right: 50px;
+    
+    
+}
+.reset{
+    position: absolute;
+    display: block;
+    color: white;
+    font-size: 28px;
+    top: 540px;
+    right: 50px;
+    
+    font-family: normal;
+    
+}
+.border_1{
+    position: absolute;
+    border: 1px white solid;
+}
+.or{
+    position: absolute;
+    color: white;
+    top: 585px;
+    right: 265px;
+    font-size: 58px;
+}
+.border_1{
+    position: absolute;
+    border: 1px white solid;
+    top: 626px;
+    left: 51px;
+}
+.google+{
+    position: absolute;
+    width: 73px;
+    height: 64px;
+}
+.hr1{
+   
+    position: absolute;
+    height: 0px;
+    width: 188px;
+    top: 620px;
+    right: 55px;
+    color: white;
+}
+.hr2{
+    position: absolute;
+    height: 0px;
+    width: 188px;
+    top: 620px;
+    left: 914px;
+    color: white;
+}
+.or{
+    position: absolute;
+    top: 530px;
+    right: 250px;
+    width: 54px;
+    height: 68px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.fab{
+    position: absolute;
+    top: 20px;
+    left: 38px;
+    /*font-size: 50px;*/
+    width: 70px;
+    border-right: 1px solid white;
+}
+.sign_in_facebook{
+    width: 403px;
+    margin: 26px 43px 27px 148px;
+    color: white;
+    font-size: 28px;
+    
+}
+.facebook{
+   position: absolute;
+   border-radius: 8px;
+    top: 713px;
+    right: 50px;
+    width: 474px;
+    height: 86px;
+    background-color: #4267B2;
+}
+.google{
+    position: absolute;
+    border-radius: 8px;
+     top: 851px;
+     right: 50px;
+     width: 474px;
+     height: 86px;
+     background-color: #DB4437;
+ }
+ .sign_in_google{
+    width: 403px;
+    margin: 26px 43px 27px 148px;
+    color: white;
+    font-size: 28px;
+    
+}
+@media screen and (max-width: 480px){
+
+    .main{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        background-color: #000;
+    }
+    .background_filter{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+
+}
