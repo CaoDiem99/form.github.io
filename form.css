@@ -1,0 +1,228 @@
+body{
+    width: 1440px;
+    height: 100%;
+    margin: 0px 0px;
+}
+.main{
+   height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
+}
+
+.form_content{
+    padding: 87px 50px;
+    
+}
+
+.background_filter{
+    /*position: absolute;
+    top: 0;
+    right: 0;*/
+    margin:  0px 0px 0px 863px;
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(0, 0, 0, 0.5);
+    
+}
+.item{
+    outline: none;
+    font-size: 40px;
+    width: 476px;
+    height: 86px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+.btn_item{
+    background-color: #944AFF;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    width: 476px;
+    height: 86px;
+    border-radius: 8px;
+}
+
+.form_content a{
+    margin: 10px auto;
+    display: block;
+    text-align: right;
+    color: white;
+}
+.line{
+    border-bottom: 2px white solid;
+    width: 188px;
+    height: 50px;
+}
+.or{
+    margin: auto 10px;
+    display: flex;
+    padding: auto 50px;
+}
+.text{
+    margin: 25px 10px;
+    font-size: 58px;
+    color: white;
+}
+hr{
+    width: 188px;
+    height: 0px;
+    margin-top: 60px;
+}
+
+.sign_up{
+    
+    display: block;
+    color: white;
+    font-size: 24px;
+    
+    
+    
+}
+.reset{
+    
+    display: block;
+    color: white;
+    font-size: 24px;
+    font-family: normal;
+    
+}
+
+.fab{
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 50px;
+    width: 90px;
+    border-right: 3px solid white;
+}
+.sign_in_facebook{
+    width: 403px;
+    margin: auto 20px;
+    color: white;
+    font-size: 28px;
+   
+    
+}
+.other_contact{
+    color: white;
+    font-size: 24px;
+    margin-top: 57px;
+}
+.facebook{
+    display: flex;
+    border-radius: 8px;
+    width: 474px;
+    height: 86px;
+    background-color: #4267B2;
+    margin-bottom: 52px;
+}
+.google{
+    display: flex;
+    border-radius: 8px;
+     width: 474px;
+     height: 86px;
+     background-color: #DB4437;
+ }
+ .sign_in_google{
+    width: 403px;
+    margin: auto 20px;
+    color: white;
+    font-size: 28px;
+    
+}
+@media screen and (max-width: 467px){
+    body{
+        width: auto;
+        height: 100%;
+    }
+    .main{
+        background-image: none;
+        width: 100%;
+        text-align: center;
+        margin: auto 2rem;
+        background-color: black;
+    }
+    .background_filter{
+        margin: 0rem 0rem;
+        width: 100%;
+        background-color: black;
+    }
+    .item{
+        outline: none;
+        font-size: auto;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+        border-radius: 8px;
+    }
+    .btn_item{
+        background-color: #944AFF;
+        outline: none;
+        color: white;
+        font-weight: bold;
+        font-size: auto;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .line{
+        border-bottom: 2px white solid;
+        width: 100%;
+        height: auto;
+    }
+    .or{
+        margin: auto ;
+        display: flex;
+        padding: auto ;
+    }
+    .text{
+        margin: auto;
+        font-size: auto;
+        color: white;
+    }
+
+    .fab{
+        
+        margin: 10px auto;
+        font-size: 2rem;
+        width: 9rem;
+        border-right: 3px solid white;
+    }
+    .facebook{
+        display: flex;
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+        background-color: #4267B2;
+        margin-bottom: 2rem;
+    }
+    .sign_in_facebook{
+        
+        width: 40.3rem ;
+        color: white;
+        font-size: 1rem;
+    }
+    .google{
+        display: flex;
+        border-radius: 8px;
+         width: 100%;
+         height: auto;
+         background-color: #DB4437;
+     }
+     .sign_in_google{
+        width: 40.3rem;
+        margin: auto 20px;
+        color: white;
+        font-size: 1rem;
+        
+    }
+    
+
+}
+    
+
+    
